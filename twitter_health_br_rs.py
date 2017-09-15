@@ -12,10 +12,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-consumer_key = 'kvIxlFYWvUoteLf7TzZtHTLWd'
-consumer_secret = 'SorXZCDyeciWMGjb7nlGRdjwQynQnkJ7tCQeflWzzXiNs1LdaK'
-access_token = '408741870-TJmTeeMFH1GQRGzAx2MxKGzPaU0E5bkXiqhWGntm'
-access_token_secret = 'W30KkBQpvKeyw6sy8OxYEPa7CVi9cQhi3gwQ7HbBsxgMy'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
